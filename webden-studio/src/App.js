@@ -1,6 +1,6 @@
 import React from 'react';
 // Connection styles
-import './fonts/ProximaNova/stylesheet.css'
+import './fonts/FontStyle/stylesheet.css'
 import './style/App.sass';
 // Connection components
 import Header from "./components/header";
