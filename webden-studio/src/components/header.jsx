@@ -5,7 +5,7 @@ const Header = () => {
         <header className="container">
             <div className="flexbox">
                 <div className="logoheader"></div>
-                <div className="menu-header"></div>
+                <button className="menu-header"></button>
             </div>
         </header>
     );
