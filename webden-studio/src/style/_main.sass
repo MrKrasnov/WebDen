@@ -2,6 +2,7 @@
     background-image: url(../img/header/background-main.jpg)
     background-position: center
     padding-top: 200px
+    padding-bottom: 50px
     &-title
         font-family: 'Myriad Pro'
         font-weight: normal 
@@ -9,3 +10,36 @@
         font-size: 44px
         & span
             color: #2296d4
+    &-input
+        display: block
+        margin: 0 auto
+        padding-left: 1%
+        width: 20%
+        height: 40px
+        background-color: #ffffff14
+        backdrop-filter: blur(10px)
+        border-radius: 5px
+        border: none
+        color: #ffffff
+        &:focus
+            outline: none
+        &::placeholder
+            color: #ffffff
+    &-button
+        position: relative
+        display: block
+        background: none
+        background-image: url(../img/header/Search.png)
+        border: none
+        color: #ffffff
+        margin: 0 auto
+        margin-left: 57.5%
+        margin-top: -30px
+        width: 19px
+        height: 20px
+        &:focus
+            outline: none
+        &:hover
+            cursor: pointer
+
+

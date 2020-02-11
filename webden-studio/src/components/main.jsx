@@ -7,6 +7,8 @@ const Main = (props) => {
                 {props.text.title} <br/>
                 By <span>{props.text.author}</span>
             </h1>
+            <input type="search" className="main-input" placeholder={props.text.placeholder}/>
+            <button className="main-button"></button>
         </section>
     );
 }
