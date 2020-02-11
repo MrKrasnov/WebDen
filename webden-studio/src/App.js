@@ -9,11 +9,12 @@ import Dist from "./components/dist/dist";
 import Footer from "./components/dist/footer";
 
 
-function App() {
+function App(props) {
+  console.log(props);
   return (
     <div>
       <Header />
-      <Main />
+      <Main text={props.appState.main[0]} />
       <Dist />
       <Footer />
     </div>

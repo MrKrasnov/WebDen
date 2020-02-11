@@ -1,11 +1,11 @@
 import React from "react";
 
-const Main = () => {
+const Main = (props) => {
     return(
         <section className="main">
             <h1 className="main-title">
-                DEVELOPMENT AND PROMOTION <br/>
-                By WEBDEN.STUDIO
+                {props.text.title} <br/>
+                By <span>{props.text.author}</span>
             </h1>
         </section>
     );
