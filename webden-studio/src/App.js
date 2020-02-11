@@ -10,7 +10,7 @@ import Footer from "./components/dist/footer";
 
 
 function App(props) {
-  console.log(props);
+  
   return (
     <div>
       <Header />
