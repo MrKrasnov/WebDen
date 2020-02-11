@@ -15,7 +15,7 @@ const Main = (props) => {
                 <button className="main-submit">{props.text.button}</button>
             </div>
             <div className="main-border"></div>
-            <a href="/" className="main-scroll">{props.text.scroll}</a> 
+            <a href="#dist" className="main-scroll">{props.text.scroll}</a> 
         </section>
     );
 }

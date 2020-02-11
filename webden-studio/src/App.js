@@ -6,7 +6,6 @@ import './style/App.sass';
 import Header from "./components/header";
 import Main from "./components/main";
 import Dist from "./components/dist/dist";
-import Footer from "./components/dist/footer";
 
 
 function App(props) {
@@ -15,8 +14,7 @@ function App(props) {
     <div>
       <Header />
       <Main text={props.appState.main[0]} />
-      <Dist />
-      <Footer />
+      <Dist content={props.appState.dist[0]}/>
     </div>
   );
 }
