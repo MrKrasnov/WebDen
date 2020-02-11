@@ -7,8 +7,15 @@ const Main = (props) => {
                 {props.text.title} <br/>
                 By <span>{props.text.author}</span>
             </h1>
-            <input type="search" className="main-input" placeholder={props.text.placeholder}/>
-            <button className="main-button"></button>
+            <div>
+                <input type="search" className="main-input" placeholder={props.text.placeholder}/>
+                <button className="main-button"></button>
+            </div>
+            <div>
+                <button className="main-submit">{props.text.button}</button>
+            </div>
+            <div className="main-border"></div>
+            <a href="/" className="main-scroll">{props.text.scroll}</a> 
         </section>
     );
 }
