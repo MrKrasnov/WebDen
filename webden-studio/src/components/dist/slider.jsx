@@ -25,7 +25,7 @@ export default class Slider extends Component {
                 <li>
                   <span className="slider-list-active">{this.props.text.list[0].id} </span>
                   <span className="slider-list-span"></span>  
-                  <span className="debug"> {this.props.text.list[0].text}</span>
+                  <span className="debug active-mobile"> {this.props.text.list[0].text}</span>
                 </li>
                 <li>
                   <span>{this.props.text.list[1].id} </span>
@@ -73,7 +73,7 @@ export default class Slider extends Component {
                 <li>
                   <span className="slider-list-active">{this.props.text.list[1].id} </span>
                   <span className="slider-list-span"></span>  
-                  <span> {this.props.text.list[1].text}</span>
+                  <span className="active-mobile"> {this.props.text.list[1].text}</span>
                 </li>
                 <li>
                   <span>{this.props.text.list[2].id} </span>
@@ -100,7 +100,7 @@ export default class Slider extends Component {
               </div>
               
             </div>
-            <div className="slider-id">02/04</div>
+            <div className="slider-id mobile-id">02/04</div>
           </div>
           <div>
           <div className="slider">
@@ -119,7 +119,7 @@ export default class Slider extends Component {
                 <li>
                   <span className="slider-list-active">{this.props.text.list[2].id} </span>
                   <span className="slider-list-span"></span>  
-                  <span> {this.props.text.list[2].text}</span>
+                  <span className="active-mobile"> {this.props.text.list[2].text}</span>
                 </li>
                 <li>
                   <span>{this.props.text.list[3].id} </span>
@@ -141,7 +141,7 @@ export default class Slider extends Component {
               </div>
               
             </div>
-            <div className="slider-id">03/04</div>
+            <div className="slider-id mobile-id">03/04</div>
           </div>
           <div>
           <div className="slider">
@@ -165,7 +165,7 @@ export default class Slider extends Component {
                 <li>
                   <span className="slider-list-active">{this.props.text.list[3].id} </span>
                   <span className="slider-list-span"></span> 
-                  <span> {this.props.text.list[3].text}</span>
+                  <span className="active-mobile"> {this.props.text.list[3].text}</span>
                 </li>
               </ul>
               
@@ -182,7 +182,7 @@ export default class Slider extends Component {
               </div>
               
             </div>
-            <div className="slider-id">04/04</div>
+            <div className="slider-id mobile-id">04/04</div>
           </div>
         </Slick>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = (props) => {
     return(
-        <div>
+        <div className="mobile-container-footer">
             <h2 className="dist-title feedback">{props.feedback.feedback}</h2>
             <div className="feedback-content">
                 <div>
