@@ -7,7 +7,7 @@ const Footer = (props) => {
             <div className="feedback-content">
                 <div>
                     <h4>КОНТАКТЫ</h4>
-                    <h5>E-MAIL:</h5>
+                     <h5>E-MAIL:</h5>
                     <p>{props.feedback.email}</p>
                     <div className="feedback-content-flex">
                         <div>
@@ -27,12 +27,12 @@ const Footer = (props) => {
                             CОЦИАЛЬНЫЕ СЕТИ
                         </h5>
                         
-                        <div className="feedback-content-sociale-icon"><a href="/"></a></div>
-                        <div className="feedback-content-sociale-icon"><a href="/"></a></div>
-                        <div className="feedback-content-sociale-icon"><a href="/"></a></div>
-                        <div className="feedback-content-sociale-icon"><a href="/"></a></div>
-                        <div className="feedback-content-sociale-icon"><a href="/"></a></div>
-                        <div className="feedback-content-sociale-icon"><a href="/"></a></div>
+                        <div className="feedback-content-sociale-icon"><a href="/"> </a></div>
+                        <div className="feedback-content-sociale-icon"><a href="/"> </a></div>
+                        <div className="feedback-content-sociale-icon"><a href="/"> </a></div>
+                        <div className="feedback-content-sociale-icon"><a href="/"> </a></div>
+                        <div className="feedback-content-sociale-icon"><a href="/"> </a></div>
+                        <div className="feedback-content-sociale-icon"><a href="/"> </a></div>
                         
                     </div>
                     <p className="feedback-content-author">
