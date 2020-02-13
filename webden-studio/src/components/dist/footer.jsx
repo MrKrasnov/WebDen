@@ -42,11 +42,11 @@ const Footer = (props) => {
                 <div className="feedback-content-form">
                     <form action="/">
                         <div className="feedback-content-form-flex">
-                            <input />
-                            <input />
+                            <input placeholder="Имя"/>
+                            <input placeholder="Телефон или e-mail"/>
                         </div>
-                        <input />
-                        <button></button>
+                        <input className="message" placeholder="Сообщение"/> <br />
+                        <button>{props.feedback.button}</button>
                     </form>
                 </div>
             </div>
