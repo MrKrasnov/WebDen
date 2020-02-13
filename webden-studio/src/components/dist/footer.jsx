@@ -1,10 +1,10 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = (props) => {
     return(
-        <header>
-
-        </header>
+        <div>
+            <h2 className="dist-title feedback">{props.feedback.feedback}</h2>
+        </div>
     );
 }
 

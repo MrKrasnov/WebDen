@@ -14,23 +14,23 @@ let state = {
             "distribution" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             list: [
                 {
-                    "id": "1",
+                    "id": "01",
                     "text": "Адаптивный дизайн"
                 },
                 {
-                    "id": "2",
+                    "id": "02",
                     "text": "Внутренняя SEO оптимизация"
                 },
                 {
-                    "id": "3",
+                    "id": "03",
                     "text": "Инструменты маркетинга"
                 },
                 {
-                    "id": "4",
+                    "id": "04",
                     "text": "Заботливая тех. поддержка"
                 },
             ],
-            "feedback": "связаться с нами",
+            "feedback": "СВЯЗАТЬСЯ С НАМИ",
             "email": "info@webden.studio",
             "phone": "+38 063 863 97 49",
             "skype": "webden.studio",
