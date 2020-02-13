@@ -141,7 +141,7 @@ export default class Slider extends Component {
               </div>
               
             </div>
-            <div className="slider-id mobile-id">03/04</div>
+            <div className="slider-id mobile-id iph4">03/04</div>
           </div>
           <div>
           <div className="slider">
@@ -182,7 +182,7 @@ export default class Slider extends Component {
               </div>
               
             </div>
-            <div className="slider-id mobile-id">04/04</div>
+            <div className="slider-id mobile-id iph4">04/04</div>
           </div>
         </Slick>
       </div>
